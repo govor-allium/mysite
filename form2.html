@@ -1,0 +1,62 @@
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8">
+        <title>Mif</title> 
+        <link rel="stylesheet" href="fstyle2.css">
+   </head>
+   <body>
+    <nav class="card-header">
+<ul class="nav nav-tabs card-header-tabs">
+  <li class="nav-item">
+    <a class="nav-link" href="index.html">О проекте</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="page2.html">Сеттинг</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="page3.html">Обитатели</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="page4.html">Интересные ресурсы</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="form.html">Создать аккаунт</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="form2.html" aria-current="page">Развлекательный тест</a>
+  </li>
+</ul>
+</navigation>
+<form action="https://www.ya.ru/search?">
+  <fieldset>
+<legend><font color="white">Кто вы из славянской нечистой силы?</font></legend>
+    <p> <input type="hidden" name="search" value="search"></p>
+    <p class="main"> <label for="name">Имя или псевдоним </label> <input type="text" name="name" value="Хтонь"> </p>
+    <p class="main"> <label for="date">Дата рождения </label><input type="date" name="date"></p>
+    <p class="main"> <label for="fatigue">Уровень вашей усталости от -5 до 10 </label><input type="number" name="fatigue" min="-5" max="10"> </p>
+    <p class="main"> <label for="pry">Уровень вашего любопытства от -50 до 1000 </label><input type="number" name="pry" min="-50" max="1000"> </p>
+    <p class="main"> <label for="place"> Комфортная среда обитания
+        <select name="place">
+<option value="Городская">Городская </option>
+<option value="Сельская">Сельская </option>
+<option value="В глубине природы">В глубине природы </option>
+        </select> </label>
+    </p>
+    <p><div class="main"><label>Какие из этих занятий вам интересны?</div>
+      <div class="notmain"><input type="checkbox" name="do" value="reading">Чтение книги</div>
+      <div class="notmain"><input type="checkbox" name="do" value="walking">Пешая прогулка </div>
+      <div class="notmain"><input type="checkbox" name="do" value="party">Вечеринка </div>
+      <div class="notmain"><input type="checkbox" name="do" value="sport">Спорт </div>
+      <div class="notmain"><input type="checkbox" name="do" value="create">Творчество </div>
+    </label></p>
+    <p><label><div class="main">Отношение к людям</div>
+      <div class="notmain"><input type="radio" name="people" value="Good">Тянусь к ним </div>
+      <div class="notmain"><input type="radio" name="people" value="Bad">Пусть меня не трогают </div></label>
+    </p>
+    <p><div class="main"><label for="comment">Отзывы/жалобы/пожелания создателям </label></div><textarea name="comment"></textarea></p>
+    <p class="main"><label for="password">Придумайте пароль для доступа к результатам </label><input type="password" name="password"></p>
+  </fieldset>
+  <input type="submit" name="submit" class="button" value="Отправить">
+    </form>
+   </body>
+</html>
